@@ -4,11 +4,14 @@
 
 #### Video Preview
 
-[](youtube:6ik6ahjmYQQ)
+<!--[](youtube:6ik6ahjmYQQ)-->
 
 In this lab, you will use Oracle Graph analytics to detect and create customer communities based on movie viewing behavior. Once you've created communities - make recommendations based on what your community members have watched.
 
 Estimated Time: 10 minutes
+
+Watch the video below for a quick walk-through of the lab.
+[Use graph analytics to recommend movies](videohub:1_ret5ywcn)
 
 ### About graph
 When you model your data as a graph, you can run graph algorithms to analyze connections and relationships in your data. You can also use graph queries to find patterns in your data, such as cycles, paths between vertices, anomalous patterns, and others. Graph algorithms are invoked using a Java or Python API, and graph queries are run using PGQL (Property Graph Query Language, see [pgql-lang.org](https://pgql-lang.org)).
@@ -33,17 +36,15 @@ In this lab, you will use the Graph Studio feature of Autonomous Database to:
 
 Graph Studio is a feature of Autonomous Database. It is available as an option on the Database Actions Launchpad. You need a graph-enabled user to log into Graph Studio. When you created the MOVIESTREAM user in Lab 2, you had graph-enabled that user.
 
-1. In your **Autonomous Database Details** page, click the **Tools** tab.
+1. In your **Autonomous Database Details page** page, click the **Database Actions**.
 
-    **Note:** Graph Studio is also accessible by clicking **Database Actions** on the Autonomous Database Details page.
+    ![Click the Database Actions button](images/click-database-actions.png " ")    
 
-    ![Click the Tools tab](images/click-tools-tab.png " ")    
-
-2. On the Tools panel, click **Open Graph Studio**.
+2. On the Database Actions panel, click **Graph Studio**.
 
     ![Click Open Graph Studio](images/graphstudiofixed.png " ")
 
-2. Log in to Graph Studio. Use the credentials for the database user MOVIESTREAM.
+3. Log in to Graph Studio. Use the credentials for the database user MOVIESTREAM.
 
     ![Use the credentials for database user MOVIESTREAM](images/graph-login.png " ")
 
